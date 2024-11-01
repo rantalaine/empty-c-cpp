@@ -4,11 +4,40 @@ A minimal, well-structured C/C++ project template with a production-ready makefi
 
 ## Quick Start
 
+### Create Your Project
+
+This is a template repository, which means you can create a new repository with the same directory structure and files very easily:
+
+1. Click the "Use this template" button at the top right of the repository page
+2. Choose "Create a new repository"
+3. Fill in your repository name and other details
+4. Click "Create repository" to finish
+
+This will create a new repository in your account with all the template contents, giving you a fresh start for your project. Unlike forking, this method creates a clean project history.
+
+### Build Your Project
+
+After creating your repository from the template:
+
+```bash
+# Clone your new repository
+git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+cd YOUR_REPO_NAME
+
+# Build the project
+make
+
+# Run the executable
+./empty-cpp
+```
+
 ### Clone and Build
+
+Alternatively, you can fork this repository:
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/empty-c-cpp.git
+git clone https://github.com/rantalaine/empty-c-cpp.git
 cd empty-c-cpp
 
 # Build the project
